@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info
+writing ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/dependency_links.txt
+writing entry points to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/entry_points.txt
+writing requirements to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/requires.txt
+writing top-level names to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/top_level.txt
+writing manifest file '../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ROS_APP/ros_workspace/build/my_ros_pkg_py/build
+creating /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib
+creating /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib/my_ros_pkg_py
+copying my_ros_pkg_py/__init__.py -> /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib/my_ros_pkg_py
+running install
+running install_lib
+creating /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py
+copying /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib/my_ros_pkg_py/__init__.py -> /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py
+byte-compiling /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /ROS_APP/ros_workspace/install/my_ros_pkg_py/share/ament_index
+creating /ROS_APP/ros_workspace/install/my_ros_pkg_py/share/ament_index/resource_index
+creating /ROS_APP/ros_workspace/install/my_ros_pkg_py/share/ament_index/resource_index/packages
+copying resource/my_ros_pkg_py -> /ROS_APP/ros_workspace/install/my_ros_pkg_py/share/ament_index/resource_index/packages
+copying package.xml -> /ROS_APP/ros_workspace/install/my_ros_pkg_py/share/my_ros_pkg_py
+running install_egg_info
+Copying ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info to /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/ROS_APP/ros_workspace/build/my_ros_pkg_py/install.log'
