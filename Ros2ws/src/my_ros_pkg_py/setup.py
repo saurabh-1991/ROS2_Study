@@ -18,8 +18,13 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    # Syntax to create package
+    #'''
+    #Node_Name = [Your Package Name].[your filename]:[your main function]
+    #'''
     entry_points={
         'console_scripts': [
+            "test_custom_node = my_ros_pkg_py.my_node1:main"
         ],
     },
 )

@@ -1,0 +1,24 @@
+[0.350s] Invoking command in '/ROS_APP/ros_workspace/src/my_ros_pkg_py': PYTHONPATH=/ROS_APP/ros_workspace/build/my_ros_pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros_pkg_py build --build-base /ROS_APP/ros_workspace/build/my_ros_pkg_py/build install --record /ROS_APP/ros_workspace/build/my_ros_pkg_py/install.log --single-version-externally-managed install_data
+[0.498s] running egg_info
+[0.499s] writing ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/PKG-INFO
+[0.499s] writing dependency_links to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/dependency_links.txt
+[0.499s] writing entry points to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/entry_points.txt
+[0.499s] writing requirements to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/requires.txt
+[0.500s] writing top-level names to ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/top_level.txt
+[0.501s] reading manifest file '../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/SOURCES.txt'
+[0.506s] writing manifest file '../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.507s] copying my_ros_pkg_py/my_node1.py -> /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib/my_ros_pkg_py
+[0.507s] running install
+[0.507s] running install_lib
+[0.508s] copying /ROS_APP/ros_workspace/build/my_ros_pkg_py/build/lib/my_ros_pkg_py/my_node1.py -> /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py
+[0.508s] byte-compiling /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py/my_node1.py to my_node1.cpython-310.pyc
+[0.509s] running install_data
+[0.509s] running install_egg_info
+[0.510s] removing '/ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.510s] Copying ../../build/my_ros_pkg_py/my_ros_pkg_py.egg-info to /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages/my_ros_pkg_py-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.525s] Installing test_custom_node script to /ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/my_ros_pkg_py
+[0.526s] writing list of installed files to '/ROS_APP/ros_workspace/build/my_ros_pkg_py/install.log'
+[0.541s] Invoked command in '/ROS_APP/ros_workspace/src/my_ros_pkg_py' returned '0': PYTHONPATH=/ROS_APP/ros_workspace/build/my_ros_pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ROS_APP/ros_workspace/install/my_ros_pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros_pkg_py build --build-base /ROS_APP/ros_workspace/build/my_ros_pkg_py/build install --record /ROS_APP/ros_workspace/build/my_ros_pkg_py/install.log --single-version-externally-managed install_data
